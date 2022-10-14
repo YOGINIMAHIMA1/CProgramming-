@@ -4,7 +4,7 @@ int main()
   int _=11;
   char __='a';
   float b__=2.12;
-  bool c_1=0;
+  _Bool c_1=0;
   double _d_ =12.22;
   printf("%d\n ",_);
   printf("%c\n",__);
