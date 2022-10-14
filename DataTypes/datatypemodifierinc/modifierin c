@@ -1,0 +1,178 @@
+Modifier in c
+-short 
+-long
+-signed 
+-unsigned
+
+signed
+-int
+-char
+-long
+
+unsigned
+int
+char
+short
+
+short
+int
+
+long
+integer
+double
+
+
+
+
+1. Primitive Data Types: These data types are built-in or predefined data types and can be used directly by the user to declare variables. example: int, char, float, bool, etc. Primitive data types available in C++ are: 
+
+Integer
+Character
+Boolean
+Floating Point
+Double Floating Point
+Valueless or Void
+Wide Character
+2. Derived Data Types: The data types that are derived from the primitive or built-in datatypes are referred to as Derived Data Types. These can be of four types namely: 
+
+Function
+Array
+Pointer
+Reference
+3. Abstract or User-Defined Data Types: These data types are defined by the user itself. Like, as defining a class in C++ or a structure. C++ provides the following user-defined datatypes: 
+
+Class
+Structure
+Union
+Enumeration
+Typedef defined Datatype
+This article discusses primitive data types available in C++. 
+
+Integer: The keyword used for integer data types is int. Integers typically require 4 bytes of memory space and range from -2147483648 to 2147483647.  
+Character: Character data type is used for storing characters. The keyword used for the character data type is char. Characters typically require 1 byte of memory space and range from -128 to 127 or 0 to 255.  
+Boolean: Boolean data type is used for storing Boolean or logical values. A Boolean variable can store either true or false. The keyword used for the Boolean data type is bool. 
+Floating Point: Floating Point data type is used for storing single-precision floating-point values or decimal values. The keyword used for the floating-point data type is float. Float variables typically require 4 bytes of memory space. 
+Double Floating Point: Double Floating Point data type is used for storing double-precision floating-point values or decimal values. The keyword used for the double floating-point data type is double. Double variables typically require 8 bytes of memory space. 
+void: Void means without any value. void data type represents a valueless entity. A void data type is used for those function which does not return a value. 
+Wide Character: Wide character data type is also a character data type but this data type has a size greater than the normal 8-bit datatype. Represented by wchar_t. It is generally 2 or 4 bytes long.
+The size of variables might be different from those shown in the above table, depending on the compiler
+and the computer you are using.
+
+sizeof operator — sizeof operator is used to find the number of bytes occupied by a variable/data type in computer memory. Eg:     int m , x[50];     cout<<sizeof(m); //returns 4 which is the number of bytes occupied by the integer variable “m”.     cout<<sizeof(x); //returns 200 which is the number of bytes occupied by the integer array variable “x”.     
+
+
+// Following is the example, which will produce correct size of various data types on your computer.
+  
+#include <iostream>
+using namespace std;
+  
+int main() 
+{
+    cout << "Size of char : " << sizeof(char) << endl;
+    cout << "Size of int : " << sizeof(int) << endl;
+      
+    cout << "Size of long : " << sizeof(long) << endl;
+    cout << "Size of float : " << sizeof(float) << endl;
+      
+    cout << "Size of double : " << sizeof(double) << endl;
+      
+      return 0;
+}
+Output
+Size of char : 1
+Size of int : 4
+Size of long : 8
+Size of float : 4
+Size of double : 8
+
+
+Time Complexity: O(1)
+Space Complexity: O(1)
+Datatype Modifiers
+As the name suggests, datatype modifiers are used with the built-in data types to modify the length of data that a particular data type can hold. 
+
+Modifiers in C/C++
+
+Data type modifiers available in C++ are: 
+
+Signed
+Unsigned
+Short
+Long
+The below table summarizes the modified size and range of built-in datatypes when combined with the type modifiers:
+
+Data Type
+
+Size (in bytes)
+
+Range
+
+short int
+
+2
+
+-32,768 to 32,767
+
+unsigned short int
+
+2
+
+0 to 65,535
+
+unsigned int
+
+4
+
+0 to 4,294,967,295
+
+int
+
+4
+
+-2,147,483,648 to 2,147,483,647
+
+long int
+
+4
+
+-2,147,483,648 to 2,147,483,647
+
+unsigned long int
+
+4
+
+0 to 4,294,967,295
+
+long long int
+
+8
+
+-(2^63) to (2^63)-1
+
+unsigned long long int
+
+8
+
+0 to 18,446,744,073,709,551,615
+
+signed char
+
+1
+
+-128 to 127
+
+unsigned char
+
+1
+
+0 to 255
+
+float
+
+4
+
+ 
+
+double
+
+8
