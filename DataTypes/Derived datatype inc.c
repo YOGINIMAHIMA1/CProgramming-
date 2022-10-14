@@ -17,7 +17,7 @@ int main() // main function declaration
       int sum=0;
       sum=sum+A[i];
       }
-      cout<<A[i]<<endl;
+      printf("%d/n",sum) ;
       
       return 0;
       }
