@@ -8,3 +8,5 @@ int main()
   }
   return 0;
 }
+/* o/p- 8,2
+        7,1 */
