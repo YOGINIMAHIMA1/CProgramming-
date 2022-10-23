@@ -4,6 +4,7 @@ int main()
   char str[]="Cricket";
   int x=2,y;
   y=++x * x++;
-  cout<< str(++y);
+  printf("%d\n", str[++y]);
+  printf(sizeof(str));
   return 0;
 }
