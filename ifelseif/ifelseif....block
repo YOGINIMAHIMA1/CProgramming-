@@ -1,0 +1,18 @@
+if(condition 1)
+{
+  statement 1;
+  }
+  
+  else if(condition 2)
+  {
+      statement 2;
+      }
+      
+      else if(condition 3)
+      {
+        statemnet 3;
+        }
+        else
+        {
+         statement 4;
+         }
