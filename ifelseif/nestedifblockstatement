@@ -1,0 +1,29 @@
+nested if- Defining if block inside another if block is called nested if.
+       syntax-     
+                 if(condition)
+                 {
+                     if(condition)
+                     {
+                        statement;
+                     }
+                       else
+                       {
+                          statement;
+                       }
+                       
+                 }
+                         
+                  else
+                        {
+                            if(condition)
+                            {
+                            statement;
+                            }
+                            else
+                            {
+                              statement;
+                              }
+                        
+                        
+                        
+                        }
