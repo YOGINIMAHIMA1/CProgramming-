@@ -9,9 +9,10 @@ do
 int main()
 {
   int i=2;
+    char* c={"MAHIMA BHARDWAJ"};
   do
   {
-    cout<<"MAHIMA BHARDWAJ" <<ENDL;
+    printf("%s",c);
   }while(i>0) ;
   return 0;
 }
