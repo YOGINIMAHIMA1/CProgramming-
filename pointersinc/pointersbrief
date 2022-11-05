@@ -1,0 +1,40 @@
+ponters- are used to access data or information from memory location.
+how to declare pointers
+ datatype*   identifier;
+ or
+ datatype *pointer;
+ 
+ 
+ int*  a;
+ or 
+ int  *a;
+ 
+ 
+ types of pointer
+ 
+ 1> typed pointer- point to specific data type
+     int*  ----------- int data
+     double* -------- double data
+     struct Emp* --------- employee data
+     
+     
+     
+     untyped : can point to any data
+     [Generic Pointer]
+     void* ----- any data
+     
+     in pointer , what operation we need to take help of two operator
+     address operator- &      ___________
+                              |         |----------------- &-
+                              | address |
+                              |_________|
+                              
+                              
+                              2>  pointer operator-   _________
+                                                     |        |
+                                                     |   value|------------- *
+                                                     |        | 
+                                                     __________   
+                                                     
+                                                     
+                                                     ADDRESS -->  POSITIVE INTEGER VALUE
