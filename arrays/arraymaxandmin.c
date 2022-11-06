@@ -9,8 +9,15 @@ int main()
            }
            for(int i=1;i<=n;i++)
            {
-             if(ele[i]>max)
+             if(ele>max)
              {
-               max=ele[i];
+               max=ele;
              }
-             if(le[i]<
+             if(ele<min)
+             {
+               min=ele;
+             }
+           }
+           printf("%d \n",max,min);
+           return 0;
+           }
