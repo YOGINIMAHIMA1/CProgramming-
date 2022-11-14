@@ -1,8 +1,8 @@
-ponters- are used to access data or information from memory location.
+ponters- are special variable  which stores starting address of another variable .
 how to declare pointers
  datatype*   identifier;
  or
- datatype *pointer;
+ datatype *identifier;
  
  
  int*  a;
@@ -10,31 +10,27 @@ how to declare pointers
  int  *a;
  
  
- types of pointer
+ pointer
  
- 1> typed pointer- point to specific data type
-     int*  ----------- int data
-     double* -------- double data
-     struct Emp* --------- employee data
+ 1>  It is the technique of giving one  more name to a variable.
+ 2> this technique is called alising technique.
      
      
-     
-     untyped : can point to any data
-     [Generic Pointer]
-     void* ----- any data
-     
-     in pointer , what operation we need to take help of two operator
-     address operator- &      ___________
-                              |         |----------------- &-
-                              | address |
-                              |_________|
-                              
-                              
-                              2>  pointer operator-   _________
-                                                     |        |
-                                                     |   value|------------- *
-                                                     |        | 
-                                                     __________   
-                                                     
+  Pointer Declaration- data-type* identifier; or 
+        data-type   *identifier;
+        
+        int* a;/ int  *a;
+        
+        int*  a;
+        /     \
+       /       \
+      /         \
+    a(pointer)  *a(alias or another name)
                                                      
                                                      ADDRESS -->  POSITIVE INTEGER VALUE
+Pointer intialization
+    int a=5, *pa=&a;
+    or
+    int a=5;// *pa;
+    int* pa=&a;// int pa=&a;
+    
