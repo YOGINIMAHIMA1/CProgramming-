@@ -1,6 +1,5 @@
 #include <stdio.h>
-int main()
-{
+
   void fun(void);
   void main()
   {
@@ -14,3 +13,8 @@ int main()
     printf("%d",a+=2;
            }
            
+/* o/p-
+7
+9
+11
+*/
