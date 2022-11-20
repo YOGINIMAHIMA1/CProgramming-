@@ -27,3 +27,6 @@ int main()
   cout<<a[i][j];
   return 0;
 }
+/* time complexity=O(m*n)
+  space complexity-O(1)
+  */
