@@ -38,5 +38,5 @@ int main()
   return 0;
 }
 /* time complexity=O(m*n)
-  space complexity-O(1)
+  space complexity-O(m*n)
   */
