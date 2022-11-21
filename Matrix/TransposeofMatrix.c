@@ -2,15 +2,23 @@
 int main()
 {
   
-  int m,n,i,j,k;
+  int m,n,i,j;
   cin>>m>>n;
-  int a[][];
-  for(int i=0;i<m;i++)
+  int a[m][n];
+  for( i=0;i<m;i++)
   {
-    for(int j=0;j<n;j++)
+    for( j=0;j<n;j++)
     {
-    cin>>a[i][j]
+    cin>>a[i][j];
       }
+  }
+  for( i=0;i<m;i++)
+  {
+    for( j=0;j<n;j++)
+    {
+    cout<<a[i][j]<<" ";
+      }
+    cout<<endl;
   }
  for( i=0;i<m;i++)
  {
@@ -22,9 +30,11 @@ int main()
        a[i][j]=a[j][i];
        a[j][i]=temp;
      }
+     cout<<a[i][j]<<" ";
    }
+   cout<<endl;
  }
-  cout<<a[i][j];
+  
   return 0;
 }
 /* time complexity=O(m*n)
